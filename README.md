@@ -6,7 +6,5 @@ Uses:
 -   Karma, Mocha, Sinon for testing
 -   Swagger and JsDoc for API docs
 -   Typescript linting
-
-Extensions:
 -   Coverage testing
--   Add a docker file
+-   Docker file for building a docker image

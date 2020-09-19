@@ -13,9 +13,9 @@ export default {
     },
     servers: [
       {
-        url: "http://localhost:8080/events",
+        url: "http://localhost:8080",
       },
     ],
   },
-  apis: ["./src/routes/event-route.ts"]
+  apis: ["./dist/routes/event-route.js"]
 };
