@@ -1,13 +1,17 @@
 # Event API
 Simple NodeJS API to retrieve events.
 
-Uses:
--   NodeJS & Typescript
+Features:
+-   NodeJS events API (using Typescript)
 -   Karma, Mocha, Sinon for testing
 -   Swagger and JsDoc for API docs
 -   Typescript linting
 -   Coverage testing
 -   Docker file for building a docker image
+
+TODO:
+-   Front-end with React
+
 
 To run locally:
 -   npm install
