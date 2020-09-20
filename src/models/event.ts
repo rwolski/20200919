@@ -1,14 +1,10 @@
-export interface LocationModel {
-    City: string;
-    State: string;
-    Country: string;
-}
+import LocationModel from "./location";
+import { SeatModel } from "./seat";
 
-export interface SeatModel {
-    id: string;
-}
-
-export interface EventModel {
+/**
+ * Event data model
+ */
+export default interface EventModel {
     Title: string;
     Time: string;
     Image: string;

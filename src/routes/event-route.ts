@@ -1,10 +1,10 @@
 /**
  * @swagger
- * 
+ *
  * /events:
  *  get:
  *    description: Returns a list of events in the system
- *    produces: 
+ *    produces:
  *      - application/json
  *    parameters:
  *      - name: search
@@ -44,12 +44,14 @@
  *        description: filter error
  */
 
-import express from 'express';
-import EventController from '../controllers/event-controller';
+import express from "express";
+import EventController from "../controllers/event-controller";
 
 const router = express.Router();
 
-router.get('', EventController.getEvents);
+router.get("", EventController.getEvents);
+
+// TODO: Add support for save/delete operations
 // router.post('', EventController.saveEvent);
 // router.delete('', EventController.deleteEvent);
 

@@ -8,3 +8,18 @@ Uses:
 -   Typescript linting
 -   Coverage testing
 -   Docker file for building a docker image
+
+To run locally:
+-   npm install
+-   npm start
+
+To run with docker:
+-   npm install
+-   npm run build
+-   docker build . --tag eventapi:1.0
+-   docker run --publish 8080:8080 eventapi:1.0
+
+Other commands:
+-   npm run lint
+-   npm run test
+-   npm run coverage
